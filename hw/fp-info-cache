@@ -1,4 +1,4 @@
-27219896856300286
+27223453177671098
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71393,12 +71393,26 @@ Integrated Circuit
 10
 10
 Library
+DBV0005A-MFG
+
+PTPS7A2012PDBVR 
+0
+5
+5
+Library
 DPAK228P994X240-4N
 
 
 0
 3
 3
+Library
+EVQPUC02K
+EVQ-PUC02K-3
+Switch
+0
+4
+4
 Library
 FTSH10501LDVK
 FTSH-105-01-L-DV-K-2

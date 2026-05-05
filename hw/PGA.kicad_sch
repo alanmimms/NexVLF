@@ -328,7 +328,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1403"
+			(property "Reference" "U"
 				(at 25.4 10.16 0)
 				(effects
 					(font
@@ -344,7 +344,7 @@
 					)
 				)
 			)
-			(property "Footprint" "symbols:21-0061L_MXM"
+			(property "Footprint" "21-0061L_MXM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -365,186 +365,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Availability" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MP" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser-part-number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Core" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "label" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2435,7 +2255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "162a77d8-f0cf-4bd4-954c-3c8d592293c4")
-		(property "Reference" "R309"
+		(property "Reference" "R304"
 			(at 176.53 99.314 90)
 			(effects
 				(font
@@ -2687,7 +2507,7 @@
 		(instances
 			(project "NexVLF"
 				(path "/c3add214-400b-4323-a350-6b93b7811d69/056d8594-8686-488d-8212-c8ea658b316d"
-					(reference "R309")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -2770,7 +2590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23d867d5-4366-4294-8b24-75a05c53b9b4")
-		(property "Reference" "C312"
+		(property "Reference" "C302"
 			(at 159.258 73.914 0)
 			(effects
 				(font
@@ -3047,7 +2867,7 @@
 		(instances
 			(project "NexVLF"
 				(path "/c3add214-400b-4323-a350-6b93b7811d69/056d8594-8686-488d-8212-c8ea658b316d"
-					(reference "C312")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -3063,7 +2883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "438ed3a9-7b19-4841-ac8d-c65f922435fd")
-		(property "Reference" "C314"
+		(property "Reference" "C303"
 			(at 159.258 90.424 0)
 			(effects
 				(font
@@ -3340,7 +3160,7 @@
 		(instances
 			(project "NexVLF"
 				(path "/c3add214-400b-4323-a350-6b93b7811d69/056d8594-8686-488d-8212-c8ea658b316d"
-					(reference "C314")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52e3caeb-addf-4fa9-ab8c-e6cab8829243")
-		(property "Reference" "C317"
+		(property "Reference" "C306"
 			(at 180.594 104.394 0)
 			(effects
 				(font
@@ -3632,7 +3452,7 @@
 		(instances
 			(project "NexVLF"
 				(path "/c3add214-400b-4323-a350-6b93b7811d69/056d8594-8686-488d-8212-c8ea658b316d"
-					(reference "C317")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -3915,7 +3735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2cbf83a-2d66-4f81-9850-767d9b183820")
-		(property "Reference" "C316"
+		(property "Reference" "C305"
 			(at 98.044 96.774 0)
 			(effects
 				(font
@@ -4193,7 +4013,7 @@
 		(instances
 			(project "NexVLF"
 				(path "/c3add214-400b-4323-a350-6b93b7811d69/056d8594-8686-488d-8212-c8ea658b316d"
-					(reference "C316")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -4625,7 +4445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea65eec9-e534-4065-9464-b2179db6def0")
-		(property "Reference" "C315"
+		(property "Reference" "C304"
 			(at 92.71 96.774 0)
 			(effects
 				(font
@@ -4902,7 +4722,7 @@
 		(instances
 			(project "NexVLF"
 				(path "/c3add214-400b-4323-a350-6b93b7811d69/056d8594-8686-488d-8212-c8ea658b316d"
-					(reference "C315")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -4934,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "symbols:21-0061L_MXM"
+		(property "Footprint" "Library:SOP50P490X110-10N"
 			(at 106.68 68.58 0)
 			(effects
 				(font
