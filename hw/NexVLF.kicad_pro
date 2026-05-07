@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": true,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -68,7 +68,36 @@
           "width": 0.225298
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|129625000|71750000|08de2aa3-077f-4044-ade3-f0fa78c81399|48503ba7-b3bd-4a42-ba24-77fab4a6151c",
+          ""
+        ],
+        [
+          "clearance|129625000|77550000|5e952e98-3f3c-40cf-ab67-2689e0ff43af|5ad7e1e7-25a0-4ad6-8c10-11e097972f61",
+          ""
+        ],
+        [
+          "clearance|135550000|77675000|1084631b-59e9-4874-b44b-662c7f394ec9|8a5b2617-1e69-4a0a-b412-66f167b52fda",
+          ""
+        ],
+        [
+          "clearance|174925000|96287500|7358ceb9-d13d-43d6-9a85-42f1dc936e62|86666cfe-9f5e-4736-b8c9-fcea68757b73",
+          ""
+        ],
+        [
+          "clearance|174925000|96787500|86666cfe-9f5e-4736-b8c9-fcea68757b73|8bff367a-4634-4532-ac2c-86f95d5d6bfb",
+          ""
+        ],
+        [
+          "clearance|176350000|96612500|23e7aee9-49e9-4363-8be6-be1151af2911|42964201-1724-4573-90ad-ecfe4f7466f4",
+          ""
+        ],
+        [
+          "clearance|176350000|97112500|e63a0681-fb13-4298-924b-f6b5540698f2|23e7aee9-49e9-4363-8be6-be1151af2911",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -587,6 +616,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/PGA1/in+": [
+        "rf50"
+      ],
       "/rf+": [
         "rf50"
       ],
@@ -594,9 +626,6 @@
         "rf50"
       ],
       "/varactorVoltage": [
-        "rf50"
-      ],
-      "GND": [
         "rf50"
       ],
       "Net-(IC101-VDD18)": [

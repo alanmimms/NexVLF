@@ -318,15 +318,15 @@
 		(uuid "e783dde5-f762-4528-9b55-9220820b0b1c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+	(model "/home/alan/ham/NexVLF/symbols/HRO-TYPE-C-31-M-12.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -4.5 -3.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

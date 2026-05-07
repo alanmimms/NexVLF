@@ -177,4 +177,15 @@
 		(uuid "50a9990f-10fa-4f3d-9a38-eb96db15ef0e")
 	)
 	(embedded_fonts no)
+	(model "/home/alan/ham/NexVLF/symbols/DBV0005A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -5,8 +5,8 @@
 	(layer "F.Cu")
 	(descr "68710814022-2")
 	(tags "Integrated Circuit")
-	(property "Reference" "IC**"
-		(at 0 1.55 0)
+	(property "Reference" "J**"
+		(at 0 -2.8 0)
 		(layer "F.SilkS")
 		(uuid "f63644fd-7ac8-4e64-8775-7a0d5b923f4e")
 		(effects
@@ -215,7 +215,7 @@
 		(uuid "ff76e06c-c0bd-43ac-9a79-31087ff20425")
 	)
 	(embedded_fonts no)
-	(model "68710814022.stp"
+	(model "/home/alan/ham/NexVLF/symbols/68710814022.stp"
 		(offset
 			(xyz 0 -1.299999933 1.049999937)
 		)

@@ -6,7 +6,7 @@
 	(descr "FTSH-105-01-L-DV-K-2")
 	(tags "Connector")
 	(property "Reference" "J**"
-		(at 0 -1.607 0)
+		(at 5.7 -3.4 0)
 		(layer "F.SilkS")
 		(uuid "95bb5702-8037-4367-bddb-039d88867df5")
 		(effects
@@ -268,7 +268,7 @@
 		(uuid "3f3eb016-f5d8-446b-a5e0-1873a296fc63")
 	)
 	(embedded_fonts no)
-	(model "FTSH-105-01-L-DV-K.stp"
+	(model "/home/alan/ham/NexVLF/symbols/FTSH-105-01-L-DV-K.stp"
 		(offset
 			(xyz 0 1.99999997 1.669999932)
 		)

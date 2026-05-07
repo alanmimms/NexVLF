@@ -265,7 +265,7 @@
 		(uuid "10c0b664-6f2d-4122-89ec-cb3e1ba47dc8")
 	)
 	(embedded_fonts no)
-	(model "MAX9939AUB+.stp"
+	(model "/home/alan/ham/NexVLF/symbols/MAX9939AUB+.stp"
 		(offset
 			(xyz 0 0 0)
 		)

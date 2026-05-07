@@ -305,15 +305,15 @@
 		(uuid "e8727708-038c-4349-9744-e86b6c178dc3")
 	)
 	(embedded_fonts no)
-	(model "EVQ-PUC02K.stp"
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/Panasonic_EVQPUK_EVQPUB.step"
 		(offset
-			(xyz 0 -0.4900000022 0)
+			(xyz 0 -0.49 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )

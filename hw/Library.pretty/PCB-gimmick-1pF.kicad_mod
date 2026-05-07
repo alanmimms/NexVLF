@@ -1,0 +1,98 @@
+(footprint "PCB-gimmick-1pF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "C**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8cd9f65c-a828-4d6b-b76c-fb970267e05b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PCB-gimmick-1pF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6b963542-ed40-4fa4-8eb8-5bd263233e8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01fadd61-6be2-4b92-90fd-5523af011f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9952d2ed-35f6-4900-8856-2ec68da4fe52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.64 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b99ab6db-df14-475a-ac02-77e801e6d1eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 1.8)
+		(size 1.7 1.7)
+		(layers "F.Cu")
+		(uuid "1429b614-7a0e-41f8-831d-245027d7e175")
+	)
+	(pad "2" smd circle
+		(at 0 1.8)
+		(size 1.7 1.7)
+		(layers "F.Cu")
+		(uuid "941c975f-0ca7-4bc7-877e-e4a004cbb153")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.7 1.7)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 1.905 1.27)
+				(roundrect_rratio 0.15)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,4 +1,4 @@
-27223453177671098
+27291966679641216
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71428,6 +71428,13 @@ XGL4030-222MEC
 2
 2
 Library
+PCB-gimmick-1pF
+
+
+0
+2
+2
+Library
 QFN50P300X300X80-17N
 
 
@@ -71441,6 +71448,13 @@ Integrated Circuit
 0
 49
 49
+Library
+SOP50P490X110-10N
+Max 21-0061_L
+Integrated Circuit
+0
+10
+10
 Library
 SOT95P280X145-5N
 DBV0006A

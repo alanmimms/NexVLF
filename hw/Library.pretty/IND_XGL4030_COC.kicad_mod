@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "XGL4030-222MEC ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -3.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b0123b5e-a878-410e-8856-ffd80ca8241f")
@@ -300,4 +300,15 @@
 		(uuid "9f2db34c-0b8d-4f2d-b8dd-de641ca00561")
 	)
 	(embedded_fonts no)
+	(model "/home/alan/ham/NexVLF/symbols/IND_XGL4030_COC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
